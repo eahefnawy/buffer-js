@@ -23,7 +23,7 @@ var callback = function(body) {
   console.log(body);
 };
 
-// Check Buffer API docs to pass the right parameters
+// Check the Buffer API docs to pass the right parameters
 // based on the method you're calling
 var params = {
   ...
