@@ -3,7 +3,7 @@ Node.js Wrapper for the Buffer API
 This Node package makes working with the Buffer API a breeze!
 A little present for the awesome Buffer team & the happy community :)
 
-The package was design with simplicity and extendability in mind. In other words, it's object oriented! It's so simple that I thought writing test code would be an overkill.
+The package was design with simplicity and extendability in mind. In other words, it's object oriented! It's so simple that I thought writing test code would be an overkill!
 
 ## Installation
 To get started, just...
