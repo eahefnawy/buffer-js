@@ -19,9 +19,9 @@ var User     = require('./lib/User.js'),
     Info     = require('./lib/Info.js');
     
 module.exports = {
-  'User'    : User,
+  'User'     : User,
   'Profiles' : Profiles,
-  'Updates' : Updates,
-  'Links'   : Links,
-  'Info'    : Info
+  'Updates'  : Updates,
+  'Links'    : Links,
+  'Info'     : Info
 };
