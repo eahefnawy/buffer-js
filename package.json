@@ -1,0 +1,34 @@
+{
+  "name": "buffer-js",
+  "version": "0.0.1",
+  "author": "Eslam A. Hefnawy",
+  "bugs": "https://github.com/eahefnawy/buffer-node/issues",
+  "contributors": [
+    {
+      "email": "eahefnawy@gmail.com",
+      "name": "Eslam A. Hefnawy",
+      "url": "http://eahefnawy.com"
+    }
+  ],
+  "dependencies": {
+    "request": "2.53.0"
+  },
+  "description": "Node.js Wrapper for the Buffer API",
+  "directories": {
+    "lib": "./lib"
+  },
+  "keywords": [
+    "API",
+    "wrapper",
+    "buffer",
+    "real-time",
+    "social"
+  ],
+  "homepage": "https://github.com/eahefnawy/buffer-node",
+  "license": "MIT",
+  "main": "buffer.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/eahefnawy/buffer-node.git"
+  }
+}
