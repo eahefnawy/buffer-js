@@ -12,7 +12,7 @@ npm install buffer-js
 ```
 
 ## Usage
-You'll need an access token to start using the Buffer API, you can either use the single-time access token provided by Buffer when you [created the application](https://buffer.com/developers/apps/create) for your own usage only, or you can request access tokens using OAUTH 2.0, which is beyond the scope of this package. 
+You'll need an access token to start using the Buffer API, you can either use the single-time access token provided by Buffer when you [created the application](https://buffer.com/developers/apps/create) for your own usage only, or you can request access tokens using OAUTH 2.0, which is beyond the scope of this package. But here's a hint! You can use [Passport](http://passportjs.org) + [Buffer Strategy](passport-bufferapp) ;)
 
 NOTE: the params object literal that you may need to pass varries by method. Check the [Buffer API docs](https://buffer.com/developers/api) for more info.
 
@@ -73,4 +73,3 @@ Updates.share(callback);
 Updates.destroy(callback);
 Updates.moveTop(callback);
 ```
-  
