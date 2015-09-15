@@ -35,10 +35,13 @@ var params = {
 var opts = {
   access_token: 'ACCESS_TOKEN'
 };
+
 var User = new Buffer.User(opts);
 User.get(callback);
+
 var Links = new Buffer.Links(opts);
 Links.get(params, callback);
+
 var Info = new Buffer.Info(opts);
 Info.get(callback);
 
@@ -48,7 +51,8 @@ var opts = {
   access_token: 'ACCESS_TOKEN',
   profile_id: 'PROFILE_ID'
 };
-Profiles = new Buffer.Profiles(opts);
+
+var Profiles = new Buffer.Profiles(opts);
 Profiles.all(callback); // doesn't need profile_id
 Profiles.get(callback);
 Profiles.schedules(callback);
@@ -64,7 +68,8 @@ var opts = {
   access_token: 'ACCESS_TOKEN',
   update_id: 'UPDATE_ID'
 };
-Updates = new Buffer.Updates(opts);
+
+var Updates = new Buffer.Updates(opts);
 Updates.create(params, callback); // doesn't need update_id
 Updates.get(callback);
 Updates.interactions(params, callback); 
